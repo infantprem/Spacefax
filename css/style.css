@@ -1,0 +1,306 @@
+body{
+    margin: 0;
+    background-color: #0B040E;
+
+
+}
+h1{
+   font-family: 'Mochiy Pop P One', sans-serif;;
+}
+/* navbar */
+.topnav {
+  position: relative;
+  overflow: hidden;
+}
+.topnav a {
+  float: left;
+  color: #FFC600;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+   font-family: 'Mochiy Pop P One', sans-serif;
+   transition: 0.4s;
+}
+.topnav a:hover {
+  color: #E900FF;transition: 0.4s;
+}
+.topnav a.active {
+  color: #FFC600;
+}
+.logo a {
+  float: none;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-family: 'Comforter', cursive;
+  
+}
+.menu {
+  float: right;
+}
+/* Header */
+.header {
+  padding: 200px;
+  text-align: center;
+  background: #0B040E;
+  background-position: center;
+  background-size: cover;
+  background-image:url("https://gifimage.net/wp-content/uploads/2018/05/spaceship-gif-1.gif"); 
+}
+
+.header h1 {
+  padding-bottom: 30px;
+  padding-left: 20px;
+  padding-right: 10px;
+  font-size: 40px;
+  color: #FA9905;
+  text-shadow: 0 0 10px #000, 0 0 15px #FF0000;
+}
+.header h1:hover{
+  color: #5800FF;
+  transition: .4s;
+
+}
+/* About us */
+.column {
+  float: left;
+  height: 500px; 
+}
+.left1 {
+  width: 60%;
+}
+.right1 {
+  width: 40%;
+}
+.column.right1 img{
+  border-radius: 50%;
+  padding: 50px;
+}
+.column.right1 img:hover{
+  transition: .3s;
+  opacity: .5;
+}
+.column.left1 p{
+  color: #5800FF;
+  padding: 20px;
+  font-size: 20px;
+   margin: 30px;
+  text-align: justify;
+  line-height: 1;
+}
+.column.left1 h1{
+  color: #5800FF;
+  padding: 20px;
+   margin: 30px;
+  font-size: 30px;
+}
+.column.left1 h1:hover{
+  color: #FA9905;
+  transition: .4s;
+}
+.column.left1 p:hover{
+  color: #FA9905;
+  transition: .4s;
+}
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+/* Space Mania */
+
+
+.column {
+  float: left;
+  height: 500px; 
+}
+.left2 {
+  width: 40%;
+}
+.right2 {
+  width: 60%;
+}
+.column.left2 img{
+  border-radius: 50%;
+  padding: 50px;
+}
+.column.left2 img:hover{
+  transition: .3s;
+  opacity: .5;
+  
+}
+.column.right2 p{
+  color: #E900FF;
+  padding: 20px;
+  font-size: 20px;
+   margin: 30px;
+  text-align: justify;
+  line-height: 1;
+}
+.column.right2 h1{
+  color: #E900FF;
+  text-align: right;
+   margin: 30px;
+  padding: 20px;
+  font-size: 30px;
+}
+.column.right2 h1:hover{
+  color: #FA9905;
+  transition: .4s;
+}
+.column.right2 p:hover{
+  color: #FA9905;
+  transition: .4s;
+}
+
+
+/* Space Facts */
+
+
+
+.column {
+  float: left;
+  height: 500px; 
+}
+.left3 {
+  width: 60%;
+}
+.right3 {
+  width: 40%;
+}
+.column.right3 img{
+  border-radius: 50%;
+  padding: 50px;
+}
+.column.right3 img:hover{
+  transition: .3s;
+  opacity: .5;
+  
+}
+.column.left3 h1{
+  color: #5800FF;
+  margin-left: 100px;
+  font-size: 30px;
+}
+.column.left3 h1:hover{
+  color: #FA9905;
+  transition: .4s;
+}
+table {
+  margin-left: 100px;
+  border-collapse: collapse;
+  width: 80%;
+  height: 80%;
+   background-color: #E900FF;
+}
+th{
+  font-size: 20px;
+}
+td{
+  font-size: 17px;
+}
+th, td {
+  text-align: left;
+  padding:30px;
+
+}
+
+tr:nth-child(even)
+{background-color: #5800FF}
+
+
+th {
+  background-color: #E900FF;
+  color: #000000;
+}
+
+/* Space News */
+
+
+.column {
+  float: left;
+  height: 500px; 
+  margin-top: 80px;
+}
+.left4 {
+  width: 40%;
+}
+.right4 {
+  width: 60%;
+}
+.column.left4 img{
+  border-radius: 50%;
+  padding: 50px;
+}
+.column.left4 img:hover{
+  transition: .3s;
+  opacity: .5;
+  
+}
+.column.right4 li{
+  color: #E900FF;
+  padding: 20px;
+  font-size: 20px;
+  text-align: justify;
+  line-height: 1;
+}
+.column.right4 h1{
+  color: #E900FF;
+  text-align: right;
+  padding: 20px;
+  margin: 30px;
+  font-size: 30px;
+}
+.column.right4 h1:hover{
+  color: #FA9905;
+  transition: .4s;
+}
+.column.right4 li:hover{
+  color: #FA9905;
+  transition: .4s;
+}
+
+/* form */
+input[type=text], select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #0000;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type=submit] {
+  width: 100%;
+  background-color: #000000;
+  color: #FFC600;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: .3s;
+}
+
+input[type=submit]:hover {
+  background-color: #E900FF;
+  transition: .3s;
+}
+
+.form{
+  border-radius: 5px;
+  background-color: #5800FF;
+  padding: 200px;
+  margin:100px 0px 100px 0px;
+}
+/* Footer */
+.footer {
+  background-color: #FFC600;
+  padding: 20px;
+  text-align: center;
+}
